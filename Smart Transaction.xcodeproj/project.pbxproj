@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F84D031918F43E5F008295C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84D031818F43E5F008295C6 /* MapKit.framework */; };
+		F84D032118F44B2D008295C6 /* InvoicePDF.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D031C18F44B2D008295C6 /* InvoicePDF.m */; };
+		F84D032218F44B2D008295C6 /* InvoicePDFBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D031E18F44B2D008295C6 /* InvoicePDFBuilder.m */; };
+		F84D032318F44B2D008295C6 /* InvoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D032018F44B2D008295C6 /* InvoiceTableViewController.m */; };
+		F84D033418F44BEB008295C6 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D032F18F44BEB008295C6 /* Product.m */; };
+		F84D033518F44BEB008295C6 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D033118F44BEB008295C6 /* Transaction.m */; };
+		F84D033618F44BEB008295C6 /* TransactionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D033318F44BEB008295C6 /* TransactionItem.m */; };
+		F861F7F118C4780100552D62 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F861F7F018C4780100552D62 /* background.png */; };
+		F861F7F318C47E8500552D62 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F861F7F218C47E8500552D62 /* logo.png */; };
+		F861F7F718C49C0600552D62 /* LoginFieldBG.png in Resources */ = {isa = PBXBuildFile; fileRef = F861F7F618C49C0600552D62 /* LoginFieldBG.png */; };
+		F861F7F918C4A44700552D62 /* forgotBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = F861F7F818C4A44700552D62 /* forgotBtn.png */; };
 		F86A0D2118C1C9D200A3BA9E /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = F86A0D1118C1C9D200A3BA9E /* bar.png */; };
 		F86A0D2218C1C9D200A3BA9E /* bar2.png in Resources */ = {isa = PBXBuildFile; fileRef = F86A0D1218C1C9D200A3BA9E /* bar2.png */; };
 		F86A0D2318C1C9D200A3BA9E /* beacon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F86A0D1318C1C9D200A3BA9E /* beacon@2x.png */; };
@@ -21,6 +32,8 @@
 		F86A0D2E18C1C9D200A3BA9E /* map2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F86A0D1E18C1C9D200A3BA9E /* map2@2x.png */; };
 		F86A0D2F18C1C9D200A3BA9E /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F86A0D1F18C1C9D200A3BA9E /* settings@2x.png */; };
 		F86A0D3018C1C9D200A3BA9E /* settings2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F86A0D2018C1C9D200A3BA9E /* settings2@2x.png */; };
+		F8839CC418F3E4D2005945CC /* TabMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8839CC318F3E4D2005945CC /* TabMenuViewController.m */; };
+		F8839CCA18F3F69A005945CC /* TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F8839CC918F3F69A005945CC /* TabBarItem.m */; };
 		F8DCA81118C0F60B00EAFEFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA81018C0F60B00EAFEFA /* Foundation.framework */; };
 		F8DCA81318C0F60B00EAFEFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA81218C0F60B00EAFEFA /* CoreGraphics.framework */; };
 		F8DCA81518C0F60B00EAFEFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA81418C0F60B00EAFEFA /* UIKit.framework */; };
@@ -34,7 +47,6 @@
 		F8DCA83218C0F60B00EAFEFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA81418C0F60B00EAFEFA /* UIKit.framework */; };
 		F8DCA83A18C0F60B00EAFEFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8DCA83818C0F60B00EAFEFA /* InfoPlist.strings */; };
 		F8DCA83C18C0F60B00EAFEFA /* Smart_TransactionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DCA83B18C0F60B00EAFEFA /* Smart_TransactionTests.m */; };
-		F8DCA84718C0F95100EAFEFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DCA84618C0F95100EAFEFA /* ViewController.m */; };
 		F8DCA84918C0FA0000EAFEFA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA84818C0FA0000EAFEFA /* Parse.framework */; };
 		F8DCA85118C0FC3500EAFEFA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA85018C0FC3500EAFEFA /* AudioToolbox.framework */; };
 		F8DCA85318C0FC3A00EAFEFA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA85218C0FC3A00EAFEFA /* CFNetwork.framework */; };
@@ -59,6 +71,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F84D031818F43E5F008295C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F84D031B18F44B2D008295C6 /* InvoicePDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoicePDF.h; sourceTree = "<group>"; };
+		F84D031C18F44B2D008295C6 /* InvoicePDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoicePDF.m; sourceTree = "<group>"; };
+		F84D031D18F44B2D008295C6 /* InvoicePDFBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoicePDFBuilder.h; sourceTree = "<group>"; };
+		F84D031E18F44B2D008295C6 /* InvoicePDFBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoicePDFBuilder.m; sourceTree = "<group>"; };
+		F84D031F18F44B2D008295C6 /* InvoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceTableViewController.h; sourceTree = "<group>"; };
+		F84D032018F44B2D008295C6 /* InvoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoiceTableViewController.m; sourceTree = "<group>"; };
+		F84D032E18F44BEB008295C6 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Product.h; path = Model/Product.h; sourceTree = "<group>"; };
+		F84D032F18F44BEB008295C6 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Product.m; path = Model/Product.m; sourceTree = "<group>"; };
+		F84D033018F44BEB008295C6 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transaction.h; path = Model/Transaction.h; sourceTree = "<group>"; };
+		F84D033118F44BEB008295C6 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transaction.m; path = Model/Transaction.m; sourceTree = "<group>"; };
+		F84D033218F44BEB008295C6 /* TransactionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransactionItem.h; path = Model/TransactionItem.h; sourceTree = "<group>"; };
+		F84D033318F44BEB008295C6 /* TransactionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransactionItem.m; path = Model/TransactionItem.m; sourceTree = "<group>"; };
+		F861F7F018C4780100552D62 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "Smart Transaction/Image/background.png"; sourceTree = "<group>"; };
+		F861F7F218C47E8500552D62 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "Smart Transaction/Image/logo.png"; sourceTree = "<group>"; };
+		F861F7F618C49C0600552D62 /* LoginFieldBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoginFieldBG.png; path = "Smart Transaction/Image/LoginFieldBG.png"; sourceTree = "<group>"; };
+		F861F7F818C4A44700552D62 /* forgotBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forgotBtn.png; path = "Smart Transaction/Image/forgotBtn.png"; sourceTree = "<group>"; };
 		F86A0D1118C1C9D200A3BA9E /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bar.png; path = "Smart Transaction/Image/bar.png"; sourceTree = "<group>"; };
 		F86A0D1218C1C9D200A3BA9E /* bar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bar2.png; path = "Smart Transaction/Image/bar2.png"; sourceTree = "<group>"; };
 		F86A0D1318C1C9D200A3BA9E /* beacon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "beacon@2x.png"; path = "Smart Transaction/Image/beacon@2x.png"; sourceTree = "<group>"; };
@@ -73,6 +102,10 @@
 		F86A0D1E18C1C9D200A3BA9E /* map2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map2@2x.png"; path = "Smart Transaction/Image/map2@2x.png"; sourceTree = "<group>"; };
 		F86A0D1F18C1C9D200A3BA9E /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings@2x.png"; path = "Smart Transaction/Image/settings@2x.png"; sourceTree = "<group>"; };
 		F86A0D2018C1C9D200A3BA9E /* settings2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings2@2x.png"; path = "Smart Transaction/Image/settings2@2x.png"; sourceTree = "<group>"; };
+		F8839CC218F3E4D2005945CC /* TabMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabMenuViewController.h; sourceTree = "<group>"; };
+		F8839CC318F3E4D2005945CC /* TabMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabMenuViewController.m; sourceTree = "<group>"; };
+		F8839CC818F3F69A005945CC /* TabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarItem.h; sourceTree = "<group>"; };
+		F8839CC918F3F69A005945CC /* TabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarItem.m; sourceTree = "<group>"; };
 		F8DCA80D18C0F60B00EAFEFA /* Smart Transaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Transaction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DCA81018C0F60B00EAFEFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8DCA81218C0F60B00EAFEFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,8 +123,6 @@
 		F8DCA83718C0F60B00EAFEFA /* Smart TransactionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smart TransactionTests-Info.plist"; sourceTree = "<group>"; };
 		F8DCA83918C0F60B00EAFEFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F8DCA83B18C0F60B00EAFEFA /* Smart_TransactionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smart_TransactionTests.m; sourceTree = "<group>"; };
-		F8DCA84518C0F95100EAFEFA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
-		F8DCA84618C0F95100EAFEFA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
 		F8DCA84818C0FA0000EAFEFA /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Smart Transaction/Library/Parse.framework"; sourceTree = "<group>"; };
 		F8DCA85018C0FC3500EAFEFA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F8DCA85218C0FC3A00EAFEFA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -111,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F84D031918F43E5F008295C6 /* MapKit.framework in Frameworks */,
 				F8DCA86118C0FC6C00EAFEFA /* SystemConfiguration.framework in Frameworks */,
 				F8DCA85F18C0FC6600EAFEFA /* StoreKit.framework in Frameworks */,
 				F8DCA85D18C0FC5F00EAFEFA /* Security.framework in Frameworks */,
@@ -140,9 +172,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F84D031A18F44A9B008295C6 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Transaction;
+			sourceTree = "<group>";
+		};
+		F84D032418F44BBA008295C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F84D032E18F44BEB008295C6 /* Product.h */,
+				F84D032F18F44BEB008295C6 /* Product.m */,
+				F84D033018F44BEB008295C6 /* Transaction.h */,
+				F84D033118F44BEB008295C6 /* Transaction.m */,
+				F84D033218F44BEB008295C6 /* TransactionItem.h */,
+				F84D033318F44BEB008295C6 /* TransactionItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		F86A0D3118C1CA3000A3BA9E /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				F861F7F818C4A44700552D62 /* forgotBtn.png */,
+				F861F7F618C49C0600552D62 /* LoginFieldBG.png */,
+				F861F7F218C47E8500552D62 /* logo.png */,
+				F861F7F018C4780100552D62 /* background.png */,
 				F86A0D1118C1C9D200A3BA9E /* bar.png */,
 				F86A0D1218C1C9D200A3BA9E /* bar2.png */,
 				F86A0D1318C1C9D200A3BA9E /* beacon@2x.png */,
@@ -184,6 +240,7 @@
 		F8DCA80F18C0F60B00EAFEFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F84D031818F43E5F008295C6 /* MapKit.framework */,
 				F8DCA86018C0FC6C00EAFEFA /* SystemConfiguration.framework */,
 				F8DCA85E18C0FC6600EAFEFA /* StoreKit.framework */,
 				F8DCA85C18C0FC5F00EAFEFA /* Security.framework */,
@@ -205,18 +262,18 @@
 		F8DCA81618C0F60B00EAFEFA /* Smart Transaction */ = {
 			isa = PBXGroup;
 			children = (
+				F84D032418F44BBA008295C6 /* Model */,
+				F84D031A18F44A9B008295C6 /* Transaction */,
 				F86A0D3118C1CA3000A3BA9E /* Image */,
 				F8DCA84F18C0FB6200EAFEFA /* Setting */,
 				F8DCA84E18C0FB5800EAFEFA /* Invoice */,
 				F8DCA84D18C0FB5100EAFEFA /* Map */,
 				F8DCA84C18C0FB4300EAFEFA /* Beacon */,
 				F8DCA84B18C0FA9B00EAFEFA /* Main Menu */,
-				F8DCA84A18C0FA8E00EAFEFA /* Login */,
+				F8DCA84A18C0FA8E00EAFEFA /* Login and signup */,
 				F8DCA81F18C0F60B00EAFEFA /* AppDelegate.h */,
 				F8DCA82018C0F60B00EAFEFA /* AppDelegate.m */,
 				F8DCA82218C0F60B00EAFEFA /* Main.storyboard */,
-				F8DCA84518C0F95100EAFEFA /* ViewController.h */,
-				F8DCA84618C0F95100EAFEFA /* ViewController.m */,
 				F8DCA82818C0F60B00EAFEFA /* Images.xcassets */,
 				F8DCA81718C0F60B00EAFEFA /* Supporting Files */,
 			);
@@ -252,18 +309,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F8DCA84A18C0FA8E00EAFEFA /* Login */ = {
+		F8DCA84A18C0FA8E00EAFEFA /* Login and signup */ = {
 			isa = PBXGroup;
 			children = (
 				F8DCA86218C0FD5300EAFEFA /* LoginViewController.h */,
 				F8DCA86318C0FD5300EAFEFA /* LoginViewController.m */,
 			);
-			name = Login;
+			name = "Login and signup";
 			sourceTree = "<group>";
 		};
 		F8DCA84B18C0FA9B00EAFEFA /* Main Menu */ = {
 			isa = PBXGroup;
 			children = (
+				F8839CC218F3E4D2005945CC /* TabMenuViewController.h */,
+				F8839CC318F3E4D2005945CC /* TabMenuViewController.m */,
+				F8839CC818F3F69A005945CC /* TabBarItem.h */,
+				F8839CC918F3F69A005945CC /* TabBarItem.m */,
 			);
 			name = "Main Menu";
 			sourceTree = "<group>";
@@ -285,6 +346,12 @@
 		F8DCA84E18C0FB5800EAFEFA /* Invoice */ = {
 			isa = PBXGroup;
 			children = (
+				F84D031B18F44B2D008295C6 /* InvoicePDF.h */,
+				F84D031C18F44B2D008295C6 /* InvoicePDF.m */,
+				F84D031D18F44B2D008295C6 /* InvoicePDFBuilder.h */,
+				F84D031E18F44B2D008295C6 /* InvoicePDFBuilder.m */,
+				F84D031F18F44B2D008295C6 /* InvoiceTableViewController.h */,
+				F84D032018F44B2D008295C6 /* InvoiceTableViewController.m */,
 			);
 			name = Invoice;
 			sourceTree = "<group>";
@@ -340,9 +407,12 @@
 		F8DCA80518C0F60B00EAFEFA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "1314-114102-02";
 				TargetAttributes = {
+					F8DCA80C18C0F60B00EAFEFA = {
+						DevelopmentTeam = T92L5B73J7;
+					};
 					F8DCA82D18C0F60B00EAFEFA = {
 						TestTargetID = F8DCA80C18C0F60B00EAFEFA;
 					};
@@ -377,15 +447,19 @@
 				F86A0D2F18C1C9D200A3BA9E /* settings@2x.png in Resources */,
 				F86A0D2B18C1C9D200A3BA9E /* invoice@2x.png in Resources */,
 				F86A0D2918C1C9D200A3BA9E /* distance-3.png in Resources */,
+				F861F7F718C49C0600552D62 /* LoginFieldBG.png in Resources */,
 				F8DCA82918C0F60B00EAFEFA /* Images.xcassets in Resources */,
 				F86A0D2218C1C9D200A3BA9E /* bar2.png in Resources */,
+				F861F7F118C4780100552D62 /* background.png in Resources */,
 				F86A0D2D18C1C9D200A3BA9E /* map@2x.png in Resources */,
 				F86A0D2A18C1C9D200A3BA9E /* distance-4.png in Resources */,
 				F8DCA81B18C0F60B00EAFEFA /* InfoPlist.strings in Resources */,
 				F86A0D2718C1C9D200A3BA9E /* distance-1.png in Resources */,
+				F861F7F318C47E8500552D62 /* logo.png in Resources */,
 				F86A0D2418C1C9D200A3BA9E /* beacon2@2x.png in Resources */,
 				F8DCA82418C0F60B00EAFEFA /* Main.storyboard in Resources */,
 				F86A0D2818C1C9D200A3BA9E /* distance-2.png in Resources */,
+				F861F7F918C4A44700552D62 /* forgotBtn.png in Resources */,
 				F86A0D2318C1C9D200A3BA9E /* beacon@2x.png in Resources */,
 				F86A0D2E18C1C9D200A3BA9E /* map2@2x.png in Resources */,
 				F86A0D2118C1C9D200A3BA9E /* bar.png in Resources */,
@@ -407,10 +481,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8839CCA18F3F69A005945CC /* TabBarItem.m in Sources */,
 				F8DCA86418C0FD5300EAFEFA /* LoginViewController.m in Sources */,
+				F84D033518F44BEB008295C6 /* Transaction.m in Sources */,
+				F84D032118F44B2D008295C6 /* InvoicePDF.m in Sources */,
+				F84D032318F44B2D008295C6 /* InvoiceTableViewController.m in Sources */,
+				F84D032218F44B2D008295C6 /* InvoicePDFBuilder.m in Sources */,
 				F8DCA82118C0F60B00EAFEFA /* AppDelegate.m in Sources */,
-				F8DCA84718C0F95100EAFEFA /* ViewController.m in Sources */,
+				F8839CC418F3E4D2005945CC /* TabMenuViewController.m in Sources */,
+				F84D033418F44BEB008295C6 /* Product.m in Sources */,
 				F8DCA81D18C0F60B00EAFEFA /* main.m in Sources */,
+				F84D033618F44BEB008295C6 /* TransactionItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +545,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -477,7 +557,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tsz Tung Cheng (CCQZJWLWTG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tsz Tung Cheng (CCQZJWLWTG)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -493,8 +574,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -503,7 +584,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -516,7 +596,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tsz Tung Cheng (CCQZJWLWTG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tsz Tung Cheng (CCQZJWLWTG)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -526,7 +607,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -537,6 +619,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tsz Tung Cheng (CCQZJWLWTG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tsz Tung Cheng (CCQZJWLWTG)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/PeterCheng/Documents/Developer/Smart\\ Transaction/Smart\\ Transaction/Library",
@@ -556,6 +640,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tsz Tung Cheng (CCQZJWLWTG)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/PeterCheng/Documents/Developer/Smart\\ Transaction/Smart\\ Transaction/Library",
@@ -573,7 +658,6 @@
 		F8DCA84318C0F60B00EAFEFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smart Transaction.app/Smart Transaction";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -596,7 +680,6 @@
 		F8DCA84418C0F60B00EAFEFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smart Transaction.app/Smart Transaction";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

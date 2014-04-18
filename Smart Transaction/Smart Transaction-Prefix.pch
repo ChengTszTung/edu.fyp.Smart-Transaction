@@ -14,4 +14,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <Parse/Parse.h>
+#import "Product.h"
+#import "Transaction.h"
+#import "TransactionItem.h"
 #endif
