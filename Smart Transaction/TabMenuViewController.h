@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OWUProximityManager.h"
 
-@interface TabMenuViewController : UITabBarController <PFLogInViewControllerDelegate>
+@interface TabMenuViewController : UITabBarController <PFLogInViewControllerDelegate,OWUProximityClientDelegate>
 
 @end

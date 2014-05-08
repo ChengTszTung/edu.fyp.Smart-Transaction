@@ -8,8 +8,10 @@
 
 #import "TabMenuViewController.h"
 #import "LoginViewController.h"
+#import <Parse/PFUser.h>
 
 @interface TabMenuViewController ()
+@property (nonatomic) PFUser* user;
 
 @end
 
@@ -28,10 +30,50 @@
         [self presentViewController:logInViewController animated:YES completion:NULL];
     }else{
         //[PFUser logOut];
+        
+        _user = [PFUser currentUser];
+        
+        [[OWUProximityManager shared] startupClientWithDelegate:self];
+        [OWUProximityManager shared].desiredProximity = CLProximityImmediate;
+        
     }
-    
+}
 
+
+#pragma mark - OWUBlueBeaconClientDelegate
+
+- (void)proximityClientDidEnterRegion {
     
 }
+
+- (void)proximityClientDidConnectToServer {
+    [[OWUProximityManager shared] postToServerWithDictionary:@{@"key": @"1234"}];
+}
+
+- (void)proximityClientDidRangeBeacon:(CLBeacon *)beacon {
+    switch (beacon.proximity) {
+        case CLProximityFar:
+            NSLog(@"Far");
+            break;
+        case CLProximityNear:
+            NSLog(@"Near");
+            
+            break;
+        case CLProximityImmediate:
+            NSLog(@"Immediate");
+            break;
+        case CLProximityUnknown:
+            NSLog(@"Unknown");
+            break;
+        default:
+            break;
+    }
+}
+
+- (void)proximityClientDidExitRegion {
+    
+}
+
+
 
 @end

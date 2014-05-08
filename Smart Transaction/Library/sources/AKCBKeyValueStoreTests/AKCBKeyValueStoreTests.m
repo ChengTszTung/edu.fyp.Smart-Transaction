@@ -1,18 +1,20 @@
 //
-//  Smart_TransactionTests.m
-//  Smart TransactionTests
+//  AKCBKeyValueStoreTests.m
+//  AKCBKeyValueStoreTests
 //
-//  Created by TszTung Cheng on 1/3/14.
-//  Copyright (c) 2014 1314-114102-02. All rights reserved.
+//  Created by Alexander Koglin on 12.10.13.
+//  Copyright (c) 2013 Alexander Koglin. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
+#import <OCMock/OCMock.h>
 
-@interface Smart_TransactionTests : XCTestCase
+
+@interface AKCBKeyValueStoreTests : XCTestCase
 
 @end
 
-@implementation Smart_TransactionTests
+@implementation AKCBKeyValueStoreTests
 
 - (void)setUp
 {
@@ -28,7 +30,7 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssert(YES, @"Tests can't be started for \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end

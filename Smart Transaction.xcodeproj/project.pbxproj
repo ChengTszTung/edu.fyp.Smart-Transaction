@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F81360B0190114310094E4C8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81360AF190114310094E4C8 /* CoreBluetooth.framework */; };
 		F84D031918F43E5F008295C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84D031818F43E5F008295C6 /* MapKit.framework */; };
 		F84D032118F44B2D008295C6 /* InvoicePDF.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D031C18F44B2D008295C6 /* InvoicePDF.m */; };
 		F84D032218F44B2D008295C6 /* InvoicePDFBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D031E18F44B2D008295C6 /* InvoicePDFBuilder.m */; };
@@ -34,6 +35,9 @@
 		F86A0D3018C1C9D200A3BA9E /* settings2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F86A0D2018C1C9D200A3BA9E /* settings2@2x.png */; };
 		F8839CC418F3E4D2005945CC /* TabMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8839CC318F3E4D2005945CC /* TabMenuViewController.m */; };
 		F8839CCA18F3F69A005945CC /* TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F8839CC918F3F69A005945CC /* TabBarItem.m */; };
+		F889965A191BE9F500681C74 /* OWUClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8899655191BE9F500681C74 /* OWUClientManager.m */; };
+		F889965B191BE9F500681C74 /* OWUProximityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8899657191BE9F500681C74 /* OWUProximityManager.m */; };
+		F889965C191BE9F500681C74 /* OWUServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8899659191BE9F500681C74 /* OWUServerManager.m */; };
 		F8DCA81118C0F60B00EAFEFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA81018C0F60B00EAFEFA /* Foundation.framework */; };
 		F8DCA81318C0F60B00EAFEFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA81218C0F60B00EAFEFA /* CoreGraphics.framework */; };
 		F8DCA81518C0F60B00EAFEFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA81418C0F60B00EAFEFA /* UIKit.framework */; };
@@ -45,17 +49,13 @@
 		F8DCA83018C0F60B00EAFEFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA82F18C0F60B00EAFEFA /* XCTest.framework */; };
 		F8DCA83118C0F60B00EAFEFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA81018C0F60B00EAFEFA /* Foundation.framework */; };
 		F8DCA83218C0F60B00EAFEFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA81418C0F60B00EAFEFA /* UIKit.framework */; };
-		F8DCA83A18C0F60B00EAFEFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8DCA83818C0F60B00EAFEFA /* InfoPlist.strings */; };
-		F8DCA83C18C0F60B00EAFEFA /* Smart_TransactionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DCA83B18C0F60B00EAFEFA /* Smart_TransactionTests.m */; };
 		F8DCA84918C0FA0000EAFEFA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA84818C0FA0000EAFEFA /* Parse.framework */; };
 		F8DCA85118C0FC3500EAFEFA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA85018C0FC3500EAFEFA /* AudioToolbox.framework */; };
 		F8DCA85318C0FC3A00EAFEFA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA85218C0FC3A00EAFEFA /* CFNetwork.framework */; };
 		F8DCA85518C0FC4600EAFEFA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA85418C0FC4600EAFEFA /* CoreLocation.framework */; };
-		F8DCA85718C0FC4E00EAFEFA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA85618C0FC4E00EAFEFA /* libz.dylib */; };
 		F8DCA85918C0FC5600EAFEFA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA85818C0FC5600EAFEFA /* MobileCoreServices.framework */; };
 		F8DCA85B18C0FC5B00EAFEFA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA85A18C0FC5B00EAFEFA /* QuartzCore.framework */; };
 		F8DCA85D18C0FC5F00EAFEFA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA85C18C0FC5F00EAFEFA /* Security.framework */; };
-		F8DCA85F18C0FC6600EAFEFA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA85E18C0FC6600EAFEFA /* StoreKit.framework */; };
 		F8DCA86118C0FC6C00EAFEFA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA86018C0FC6C00EAFEFA /* SystemConfiguration.framework */; };
 		F8DCA86418C0FD5300EAFEFA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DCA86318C0FD5300EAFEFA /* LoginViewController.m */; };
 /* End PBXBuildFile section */
@@ -71,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F81360AF190114310094E4C8 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		F84D031818F43E5F008295C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F84D031B18F44B2D008295C6 /* InvoicePDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoicePDF.h; sourceTree = "<group>"; };
 		F84D031C18F44B2D008295C6 /* InvoicePDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoicePDF.m; sourceTree = "<group>"; };
@@ -106,6 +107,13 @@
 		F8839CC318F3E4D2005945CC /* TabMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabMenuViewController.m; sourceTree = "<group>"; };
 		F8839CC818F3F69A005945CC /* TabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarItem.h; sourceTree = "<group>"; };
 		F8839CC918F3F69A005945CC /* TabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarItem.m; sourceTree = "<group>"; };
+		F8899654191BE9F500681C74 /* OWUClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWUClientManager.h; sourceTree = "<group>"; };
+		F8899655191BE9F500681C74 /* OWUClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWUClientManager.m; sourceTree = "<group>"; };
+		F8899656191BE9F500681C74 /* OWUProximityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWUProximityManager.h; sourceTree = "<group>"; };
+		F8899657191BE9F500681C74 /* OWUProximityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWUProximityManager.m; sourceTree = "<group>"; };
+		F8899658191BE9F500681C74 /* OWUServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWUServerManager.h; sourceTree = "<group>"; };
+		F8899659191BE9F500681C74 /* OWUServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWUServerManager.m; sourceTree = "<group>"; };
+		F889965D191BE9FD00681C74 /* OWUProximityManagerConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWUProximityManagerConstants.h; sourceTree = "<group>"; };
 		F8DCA80D18C0F60B00EAFEFA /* Smart Transaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Transaction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DCA81018C0F60B00EAFEFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8DCA81218C0F60B00EAFEFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,9 +128,6 @@
 		F8DCA82818C0F60B00EAFEFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F8DCA82E18C0F60B00EAFEFA /* Smart TransactionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart TransactionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DCA82F18C0F60B00EAFEFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F8DCA83718C0F60B00EAFEFA /* Smart TransactionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smart TransactionTests-Info.plist"; sourceTree = "<group>"; };
-		F8DCA83918C0F60B00EAFEFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F8DCA83B18C0F60B00EAFEFA /* Smart_TransactionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smart_TransactionTests.m; sourceTree = "<group>"; };
 		F8DCA84818C0FA0000EAFEFA /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Smart Transaction/Library/Parse.framework"; sourceTree = "<group>"; };
 		F8DCA85018C0FC3500EAFEFA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F8DCA85218C0FC3A00EAFEFA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -131,7 +136,6 @@
 		F8DCA85818C0FC5600EAFEFA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		F8DCA85A18C0FC5B00EAFEFA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F8DCA85C18C0FC5F00EAFEFA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		F8DCA85E18C0FC6600EAFEFA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		F8DCA86018C0FC6C00EAFEFA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F8DCA86218C0FD5300EAFEFA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Controller/LoginViewController.h; sourceTree = "<group>"; };
 		F8DCA86318C0FD5300EAFEFA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Controller/LoginViewController.m; sourceTree = "<group>"; };
@@ -142,13 +146,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F81360B0190114310094E4C8 /* CoreBluetooth.framework in Frameworks */,
 				F84D031918F43E5F008295C6 /* MapKit.framework in Frameworks */,
 				F8DCA86118C0FC6C00EAFEFA /* SystemConfiguration.framework in Frameworks */,
-				F8DCA85F18C0FC6600EAFEFA /* StoreKit.framework in Frameworks */,
 				F8DCA85D18C0FC5F00EAFEFA /* Security.framework in Frameworks */,
 				F8DCA85B18C0FC5B00EAFEFA /* QuartzCore.framework in Frameworks */,
 				F8DCA85918C0FC5600EAFEFA /* MobileCoreServices.framework in Frameworks */,
-				F8DCA85718C0FC4E00EAFEFA /* libz.dylib in Frameworks */,
 				F8DCA85518C0FC4600EAFEFA /* CoreLocation.framework in Frameworks */,
 				F8DCA81318C0F60B00EAFEFA /* CoreGraphics.framework in Frameworks */,
 				F8DCA85318C0FC3A00EAFEFA /* CFNetwork.framework in Frameworks */,
@@ -222,7 +225,6 @@
 			isa = PBXGroup;
 			children = (
 				F8DCA81618C0F60B00EAFEFA /* Smart Transaction */,
-				F8DCA83518C0F60B00EAFEFA /* Smart TransactionTests */,
 				F8DCA80F18C0F60B00EAFEFA /* Frameworks */,
 				F8DCA80E18C0F60B00EAFEFA /* Products */,
 			);
@@ -240,9 +242,9 @@
 		F8DCA80F18C0F60B00EAFEFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F81360AF190114310094E4C8 /* CoreBluetooth.framework */,
 				F84D031818F43E5F008295C6 /* MapKit.framework */,
 				F8DCA86018C0FC6C00EAFEFA /* SystemConfiguration.framework */,
-				F8DCA85E18C0FC6600EAFEFA /* StoreKit.framework */,
 				F8DCA85C18C0FC5F00EAFEFA /* Security.framework */,
 				F8DCA85A18C0FC5B00EAFEFA /* QuartzCore.framework */,
 				F8DCA85818C0FC5600EAFEFA /* MobileCoreServices.framework */,
@@ -268,7 +270,7 @@
 				F8DCA84F18C0FB6200EAFEFA /* Setting */,
 				F8DCA84E18C0FB5800EAFEFA /* Invoice */,
 				F8DCA84D18C0FB5100EAFEFA /* Map */,
-				F8DCA84C18C0FB4300EAFEFA /* Beacon */,
+				F8DCA84C18C0FB4300EAFEFA /* Beacon + Bluetooth */,
 				F8DCA84B18C0FA9B00EAFEFA /* Main Menu */,
 				F8DCA84A18C0FA8E00EAFEFA /* Login and signup */,
 				F8DCA81F18C0F60B00EAFEFA /* AppDelegate.h */,
@@ -287,24 +289,6 @@
 				F8DCA81918C0F60B00EAFEFA /* InfoPlist.strings */,
 				F8DCA81C18C0F60B00EAFEFA /* main.m */,
 				F8DCA81E18C0F60B00EAFEFA /* Smart Transaction-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F8DCA83518C0F60B00EAFEFA /* Smart TransactionTests */ = {
-			isa = PBXGroup;
-			children = (
-				F8DCA83B18C0F60B00EAFEFA /* Smart_TransactionTests.m */,
-				F8DCA83618C0F60B00EAFEFA /* Supporting Files */,
-			);
-			path = "Smart TransactionTests";
-			sourceTree = "<group>";
-		};
-		F8DCA83618C0F60B00EAFEFA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F8DCA83718C0F60B00EAFEFA /* Smart TransactionTests-Info.plist */,
-				F8DCA83818C0F60B00EAFEFA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -329,11 +313,18 @@
 			name = "Main Menu";
 			sourceTree = "<group>";
 		};
-		F8DCA84C18C0FB4300EAFEFA /* Beacon */ = {
+		F8DCA84C18C0FB4300EAFEFA /* Beacon + Bluetooth */ = {
 			isa = PBXGroup;
 			children = (
+				F889965D191BE9FD00681C74 /* OWUProximityManagerConstants.h */,
+				F8899654191BE9F500681C74 /* OWUClientManager.h */,
+				F8899655191BE9F500681C74 /* OWUClientManager.m */,
+				F8899656191BE9F500681C74 /* OWUProximityManager.h */,
+				F8899657191BE9F500681C74 /* OWUProximityManager.m */,
+				F8899658191BE9F500681C74 /* OWUServerManager.h */,
+				F8899659191BE9F500681C74 /* OWUServerManager.m */,
 			);
-			name = Beacon;
+			name = "Beacon + Bluetooth";
 			sourceTree = "<group>";
 		};
 		F8DCA84D18C0FB5100EAFEFA /* Map */ = {
@@ -412,6 +403,14 @@
 				TargetAttributes = {
 					F8DCA80C18C0F60B00EAFEFA = {
 						DevelopmentTeam = T92L5B73J7;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 					F8DCA82D18C0F60B00EAFEFA = {
 						TestTargetID = F8DCA80C18C0F60B00EAFEFA;
@@ -470,7 +469,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8DCA83A18C0F60B00EAFEFA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,12 +482,15 @@
 				F8839CCA18F3F69A005945CC /* TabBarItem.m in Sources */,
 				F8DCA86418C0FD5300EAFEFA /* LoginViewController.m in Sources */,
 				F84D033518F44BEB008295C6 /* Transaction.m in Sources */,
+				F889965C191BE9F500681C74 /* OWUServerManager.m in Sources */,
+				F889965A191BE9F500681C74 /* OWUClientManager.m in Sources */,
 				F84D032118F44B2D008295C6 /* InvoicePDF.m in Sources */,
 				F84D032318F44B2D008295C6 /* InvoiceTableViewController.m in Sources */,
 				F84D032218F44B2D008295C6 /* InvoicePDFBuilder.m in Sources */,
 				F8DCA82118C0F60B00EAFEFA /* AppDelegate.m in Sources */,
 				F8839CC418F3E4D2005945CC /* TabMenuViewController.m in Sources */,
 				F84D033418F44BEB008295C6 /* Product.m in Sources */,
+				F889965B191BE9F500681C74 /* OWUProximityManager.m in Sources */,
 				F8DCA81D18C0F60B00EAFEFA /* main.m in Sources */,
 				F84D033618F44BEB008295C6 /* TransactionItem.m in Sources */,
 			);
@@ -499,7 +500,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8DCA83C18C0F60B00EAFEFA /* Smart_TransactionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,14 +528,6 @@
 				F8DCA82318C0F60B00EAFEFA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F8DCA83818C0F60B00EAFEFA /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8DCA83918C0F60B00EAFEFA /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -619,8 +611,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tsz Tung Cheng (CCQZJWLWTG)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tsz Tung Cheng (CCQZJWLWTG)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/PeterCheng/Documents/Developer/Smart\\ Transaction/Smart\\ Transaction/Library",
@@ -628,8 +620,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Smart Transaction/Smart Transaction-Prefix.pch";
 				INFOPLIST_FILE = "Smart Transaction/Smart Transaction-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -640,7 +634,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tsz Tung Cheng (CCQZJWLWTG)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/PeterCheng/Documents/Developer/Smart\\ Transaction/Smart\\ Transaction/Library",
@@ -648,8 +643,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Smart Transaction/Smart Transaction-Prefix.pch";
 				INFOPLIST_FILE = "Smart Transaction/Smart Transaction-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
